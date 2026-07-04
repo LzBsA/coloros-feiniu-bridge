@@ -54,7 +54,7 @@ LSPosed/Xposed 要求：
 已在 ColorOS 16 / Android 16 的相册版本上验证。附近版本理论上也可用，但需要保持以下点不变：
 
 - 目标包名：`com.coloros.gallery3d`
-- token 解密类：`com.oplus.aiunit.vision.erq`
+- token 解密类：`com.oplus.aiunit.vision.erq` 或 `com.oplus.aiunit.vision.in80`
 - prefix 加载方法：`e()`
 - token 密钥派生方式：`SHA-256(prefix + deviceId)`
 
