@@ -47,7 +47,7 @@ LSPosed/Xposed 要求：
 - 最低声明 API：`82`
 - 推荐作用域：`com.coloros.gallery3d`
 - 入口：`assets/xposed_init`
-- 作用域推荐：`assets/scope.list`
+- 作用域推荐：`AndroidManifest.xml` 中的 `xposedscope` metadata
 - 不包含 `META-INF/xposed/java_init.list`，不声明 libxposed 入口。
 - 编译依赖：`de.robv.android.xposed:api:82`
 
